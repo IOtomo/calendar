@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>カレンダーアプリ📆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+</html>
+
+<body>
+    <div id="outer">
+        <header>
+            <div id="header-inner">
+                <h1>カレンダーアプリ📆</h1>
+            </div>
+        </header>
+        <main>
+            <p>2015年から2024年までの祝日が表示されます</p>
+            <input class="large" id="prev_button" type="button" value="←" onclick="PrevButton()">
+            <input class="large" id="next_button" type="button" value="→" onclick="NextButton()">
+                <div id="calendar"></div>
+                <script src = "./index.js"></script>
+        </main>
+    </div>
+</body>
+
+</html>

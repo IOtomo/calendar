@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+#outer {
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #F5F3F0;
+    border-top: 4px solid #777;
+    height: 80px;
+}
+
+p {
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 767px) {
+    #outer {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+#calendar p {
+    margin: 0 15px;
+  }
+  
+  #calendar table {
+    table-layout:fixed;
+  }
+  
+  #calendar th,
+  #calendar td {
+    width:600px;
+    height: 70px;
+    text-align:center;
+    vertical-align:top;
+  }
+  
+  #calendar .prev-month,
+  #calendar .next-month {
+    color: lightgray;
+  }
+
+.large
+{
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background: lightgray;
+    cursor: pointer;
+}
