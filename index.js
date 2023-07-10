@@ -159,3 +159,5 @@ function PrevButton() {
 		generateCalendarWithHolidays(currentYear, currentMonth);
 	}
 }
+
+//日本の祝日の取得にはhttps://holidays-jp.github.io/を使用した。
